@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	height: 100%;
+}
+
+#map
+{
+	visibility: hidden;
+}
+
+#streetView{
+	height:650px;
+	margin:25px 0px 0px;
+	width:100%;
+}
+
+footer
+{
+	margin-left:10px;
+}
