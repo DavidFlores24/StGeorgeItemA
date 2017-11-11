@@ -1,36 +1,54 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body {
+	font-size: 20px;
+	line-height: 1.5;
+}
+
 #transcript p
 {
 	transform: translateY(0%);
 }
 
-footer p
+footer a
 {
-	font-size:1.5em;
 	padding:5px;
 	bottom:10px;
+	color: #FFF;
 }
 
-.background img
+.background
 {
-	width: 600px;
-	height:auto;
-	margin: 100px 10px;
+	width: 100%;
+}
+
+.background img {
+	height: 700px;
+	width:auto;
+	margin-left: 95px;
 }
 
 #main
 {
-	background-color:#805b38;
+	background-color: rgb(255,247,225);
 }
 
 #transcript
 {
-	background-color:rgb(157, 102, 43);
+	position: absolute;
+	bottom: 0;
+	background-color:rgba(62, 132, 190, 0.9);
+	margin-left:-13px;
+	padding-bottom: 10px;
+	color: #FFF;
 }
 
 footer
 {
-	background-color:rgb(157, 102, 43);
+	position: absolute;
+	bottom: 0;
+	color:#FFF;
+	text-decoration: none;
+	right: 0;
 }
