@@ -5,15 +5,21 @@ body
 {
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	background-color: rgb(255,247,225);
+	box-sizing: border-box;
 }
 
 .topic
 {
 	color: rgb(255, 247, 225);
-	height: 700px;
+	height: 135px;
 	text-align: center;
 	transition:.5s;
-	margin:0px 20px;
+	margin:0 10px 10px;
+	padding-bottom: 40px;
+}
+
+.topic:hover {
+	background-color: rgb(195, 98, 105);
 }
 
 .instruction
@@ -42,60 +48,34 @@ h2
 
 #topic1
 {
-	background-color: rgb(195, 98, 105);
+	background-color: rgb(19, 55, 92);
 }
 
-#topic1:hover
-{
-	background-color:rgb(62,132,190);
-}
 
 #topic2
 {
-	background-color: rgb(185,41,88);
+	background-color: rgb(62,132,190);
 }
 
-#topic2:hover
-{
-	background-color:rgb(62,132,190);
-}
 
 #topic3
 {
-	background-color: rgb(101,51,88);
-}
-
-#topic3:hover
-{
-	background-color:rgb(62,132,190);
+	background-color: rgb(155,177,193);
 }
 
 #topic4
 {
-	background-color: rgb(253,186,77);
+	background-color: rgb(79,156,166);
 }
 
-#topic4:hover
-{
-	background-color:rgb(62,132,190);
-}
 
 #topic5
 {
-	background-color: rgb(232,116,36);
+	background-color: rgb(19, 55, 92);
 }
 
-#topic5:hover
-{
-	background-color:rgb(62,132,190);
-}
 
 #topic6
 {
-	background-color: rgb(19,55,92);
-}
-
-#topic6:hover
-{
-	background-color:rgb(62,132,190);
+	background-color: rgb(62,132,190);
 }
