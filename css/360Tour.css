@@ -11,12 +11,20 @@ body{
 }
 
 #streetView{
-	height:650px;
+	height:600px;
 	margin:25px 0px 0px;
 	width:100%;
 }
 
-footer
+.btn-default
 {
-	margin-left:10px;
+	position:absolute;
+	bottom:5px;
+	right:20px;
+	background-color:rgba(62, 132, 190, 0.7);
+	text-decoration: none;
+}
+
+a {
+	color:white;
 }
