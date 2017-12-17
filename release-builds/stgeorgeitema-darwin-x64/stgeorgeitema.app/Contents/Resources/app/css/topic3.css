@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* CSS Document */
+img
+{
+	height:600px;
+	width:auto;
+	left:25%;
+}
+
+#transcript
+{
+	background-color:#658ca8;
+	top: 50%;
+	height: 650px;
+	color: rgb(255, 247, 225);
+}
+
+#transcript p
+{
+	position:relative;
+	top: 10%;
+	font-size:1.5em;
+}
+
+#transcript h3
+{
+	position: relative;
+	text-align:  right;
+	top:10%;
+}
+
+body
+{
+	background-color: #9bb1c1;
+	color: rgb(255, 247, 225);
+}
+
+footer
+{
+	float:right;
+	background-color: #658ca8;
+	width: 50%;
+	text-align: right;
+}
+
+footer p
+{
+		color: rgb(255, 247, 225);
+	text-decoration: none;
+	margin-right:5%;
+}
