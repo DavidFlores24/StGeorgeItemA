@@ -32,10 +32,13 @@ body
 .btn-default
 {
 	position:absolute;
-	bottom:5px;
-	right:20px;
-	background-color: rgba(19, 55, 92, 0.7);
+	bottom:80px;
+	left:80%;
+	background-color:rgba(19, 55, 92, 0.7);
 	text-decoration: none;
+	color:white;
+	width: 200px;
+    height: 70px;
 }
 
 a {

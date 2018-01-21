@@ -1,28 +1,23 @@
 {
-  "name": "stgeorgeitema",
-  "version": "1.0.0",
-  "description": "Interactive Screen Item A",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron .",
-	  "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --prune=true --out=release-builds",
-	  "package-win": "electron-packager . electron-tutorial-app --overwrite --asar=true --platform=win32 --arch=ia32 --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"StGeorgeItemA\"",    
-	  "package-linux": "electron-packager . electron-tutorial-app --overwrite --asar=true --platform=linux --arch=x64 --icon=assets/icons/png/1024x1024.png --prune=true --out=release-builds"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DavidFlores24/StGeorgeItemA.git"
-  },
-  "author": "David Flores",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DavidFlores24/StGeorgeItemA/issues"
-  },
-  "homepage": "https://github.com/DavidFlores24/StGeorgeItemA#readme",
-  "dependencies": {
-    "electron": "^1.7.9"
+ "name": "ItemA",
+ "productName": "Item A",
+ "version": "0.1.0",
+ "main": "main.js",
+ "devDependencies": {
+  "electron": "^1.4.3",
+  "electron-packager": "^8.7.2"
+ },
+ "scripts": {
+  "start": "electron .",
+  "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --prune=true --out=release-builds",
+  "package-win": "electron-packager . ItemA --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"ItemA\"",
+  "package-linux": "electron-packager . electron-tutorial-app --overwrite --asar=true --platform=linux --arch=x64 --icon=assets/icons/png/1024x1024.png --prune=true --out=release-builds"
+ },
+
+ "dependencies": {
+    "electron": "^1.7.6"
   },
   "devDependencies": {
-    "electron-packager": "^10.1.0"
+    "electron-packager": "^9.0.1"
   }
 }
